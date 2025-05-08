@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="web icon" href="logo.png">
+  <title>Admissions et Bourses - PythAcademy</title>
+  <link rel="stylesheet" href="admission.css" />
+  <style>
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.main-header {
+  background-color: #0099cc;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+.country-section {
+  padding: 40px 20px;
+  background-color: #f0f8ff;
+  border-bottom: 1px solid #ccc;
+}
+
+.country-section h2 {
+  color: #005a8c;
+}
+
+.contact-section {
+  background-color: #e6f7ff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: #005a8c;
+  font-size: 2rem;
+}
+
+.contact-section p {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.contact-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  width: 120px;
+}
+
+.contact-icon img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.contact-icon span {
+  color: #005a8c;
+  font-weight: bold;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0099cc;
+  color: white;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png">
+      <h2 >  PythAcademy</h2>
+</div>
+    <h1>🎓 Admissions et Bourses</h1>
+
+  </header>
+  <a href="https://wa.me/message/XTQKCCN4ZCN7L1" 
+   class="whatsapp-float" 
+   target="_blank" 
+   title="Contactez-nous sur WhatsApp">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" 
+       alt="WhatsApp">
+</a>
+  <main>
+    <section class="content">
+      <p>Bienvenue dans la section dédiée aux admissions et bourses de PythAcademy.</p>
+      <p>Ici, vous trouverez toutes les opportunités d'admission dans nos programmes ainsi que les bourses disponibles.</p>
+      <section style="padding: 40px; background-color: #f0f8ff;">
+        <h2 style="color: #003366; text-align: center;">🇮🇹 Étudier en Italie</h2>
+        <p style="max-width: 800px; margin: 20px auto; font-size: 16px;">
+          L’Italie offre une éducation de qualité dans un environnement culturel riche. Les universités italiennes comme La Sapienza, Politecnico di Milano ou l’Université de Bologne sont reconnues mondialement.
+        </p>
+        <ul style="max-width: 800px; margin: 0 auto 30px; font-size: 16px;">
+          <li><strong>Langue d’enseignement :</strong> Italien ou Anglais (selon le programme)</li>
+          <li><strong>Conditions d’admission :</strong> Bac + relevés + lettre de motivation + certificat de langue</li>
+          <li><strong>Frais de scolarité :</strong> entre 500€ et 2 000€ par an (pour les étudiants internationaux)</li>
+          <li><strong>Avantages :</strong> Possibilité de bourses et jobs étudiants</li>
+        </ul>
+      </section>
+      
+    </section>
+    <section style="padding: 40px; background-color: #e6f0ff;">
+        <h2 style="color: #1c1c52; text-align: center;">🇷🇺 Étudier en Russie</h2>
+        <p style="max-width: 800px; margin: 20px auto; font-size: 16px;">
+          La Russie accueille de nombreux étudiants étrangers dans ses grandes universités comme MGU, ITMO, HSE ou Skoltech. Elle propose une éducation technique et scientifique de haut niveau.
+        </p>
+        <ul style="max-width: 800px; margin: 0 auto 30px; font-size: 16px;">
+          <li><strong>Langue d’enseignement :</strong> Russe ou Anglais (selon le programme)</li>
+          <li><strong>Conditions d’admission :</strong> Dossier académique + test d’entrée ou entretien + visa</li>
+          <li><strong>Frais de scolarité :</strong> entre 1 000€ et 4 000€ par an</li>
+          <li><strong>Avantages :</strong> Bourse complète possible via le programme du gouvernement russe</li>
+        </ul>
+      </section>
+      <section style="padding: 40px; background-color: #f5f5f5;">
+        <h2 style="color: #0055a4; text-align: center;">🇫🇷 Étudier en France</h2>
+        <p style="max-width: 800px; margin: 20px auto; font-size: 16px;">
+          La France est l'une des destinations préférées des étudiants francophones. Elle propose une offre de formation variée dans des établissements publics et privés.
+        </p>
+        <ul style="max-width: 800px; margin: 0 auto 30px; font-size: 16px;">
+          <li><strong>Langue d’enseignement :</strong> Français (avec certains masters en anglais)</li>
+          <li><strong>Conditions d’admission :</strong> Dossier + Campus France + visa étudiant</li>
+          <li><strong>Frais de scolarité :</strong> 170€ à 380€ par an dans les universités publiques</li>
+          <li><strong>Avantages :</strong> Coût faible + nombreuses bourses + accès à des aides sociales</li>
+        </ul>
+      </section>
+      <section style="padding: 40px; background-color: #e3f2fd;">
+        <h2 style="color: #d32f2f; text-align: center;">🇨🇦 Étudier au Canada</h2>
+        <p style="max-width: 800px; margin: 20px auto; font-size: 16px;">
+          Le Canada combine un enseignement de qualité et un environnement multiculturel accueillant. Les universités canadiennes sont très bien classées mondialement.
+        </p>
+        <ul style="max-width: 800px; margin: 0 auto 30px; font-size: 16px;">
+          <li><strong>Langue d’enseignement :</strong> Anglais et/ou Français</li>
+          <li><strong>Conditions d’admission :</strong> Diplômes + preuve linguistique (IELTS/TEF) + visa</li>
+          <li><strong>Frais de scolarité :</strong> 10 000 à 20 000 CAD par an</li>
+          <li><strong>Avantages :</strong> Possibilité de travailler pendant les études + immigration facilitée</li>
+        </ul>
+      </section>
+      <section style="padding: 40px; background-color: #f0f0f0;">
+        <h2 style="color: #000000; text-align: center;">🇩🇪 Étudier en Allemagne</h2>
+        <p style="max-width: 800px; margin: 20px auto; font-size: 16px;">
+          L'Allemagne offre un enseignement supérieur gratuit ou peu coûteux, notamment dans les filières techniques et scientifiques. Les universités allemandes sont ouvertes aux étudiants étrangers.
+        </p>
+        <ul style="max-width: 800px; margin: 0 auto 30px; font-size: 16px;">
+          <li><strong>Langue d’enseignement :</strong> Allemand ou Anglais (selon le programme)</li>
+          <li><strong>Conditions d’admission :</strong> Diplômes + niveau B2/C1 en allemand ou anglais + visa</li>
+          <li><strong>Frais de scolarité :</strong> 0€ dans la plupart des universités publiques (hors frais de semestre)</li>
+          <li><strong>Avantages :</strong> Coût bas + bonne qualité de vie + nombreuses opportunités de travail</li>
+        </ul>
+      </section>
+            
+      
+      
+      
+  </main>
+  <section id="au-pair-allemagne" style="background-color: #f0f8ff; padding: 40px;">
+    <h2 style="color: #005a8c; text-align: center;">Comment immigrer en Allemagne via le programme Au Pair</h2>
+    
+    <p style="color: #333; font-size: 1.2rem; line-height: 1.6;">Le programme Au Pair est une excellente opportunité pour les jeunes adultes qui souhaitent vivre en Allemagne tout en découvrant la culture locale et en améliorant leurs compétences linguistiques. En tant qu'Au Pair, vous vivrez avec une famille d'accueil, vous aurez la possibilité d'apprendre l'allemand, et vous pourrez découvrir la vie quotidienne en Allemagne.</p>
+
+    <h3 style="color: #005a8c;">Qu'est-ce qu'un Au Pair ?</h3>
+    <p style="color: #333; font-size: 1.1rem; line-height: 1.6;">Un Au Pair est une personne qui vit avec une famille d'accueil dans un autre pays pour s'occuper des enfants tout en recevant de l'argent de poche, de la nourriture, et un logement. En échange, l'Au Pair s'engage à aider la famille dans les tâches ménagères légères et la garde d'enfants, tout en ayant du temps libre pour étudier ou explorer le pays.</p>
+
+    <h3 style="color: #005a8c;">Conditions pour devenir Au Pair en Allemagne</h3>
+    <ul style="color: #333; font-size: 1.1rem; line-height: 1.8;">
+        <li><strong>Âge :</strong> Vous devez avoir entre 18 et 27 ans.</li>
+        <li><strong>Langue :</strong> Bien qu'il ne soit pas obligatoire de parler couramment l'allemand, il est fortement recommandé d'avoir des connaissances de base pour communiquer avec la famille d'accueil et les enfants.</li>
+        <li><strong>Durée :</strong> Le séjour au pair en Allemagne dure généralement entre 6 et 12 mois.</li>
+        <li><strong>Assurance santé :</strong> Vous devez souscrire à une assurance maladie pendant votre séjour en Allemagne.</li>
+        <li><strong>Expérience avec les enfants :</strong> Avoir une expérience préalable dans la garde d'enfants ou la capacité à interagir avec des enfants est un plus.</li>
+    </ul>
+
+    <h3 style="color: #005a8c;">Les avantages du programme Au Pair en Allemagne</h3>
+    <ul style="color: #333; font-size: 1.1rem; line-height: 1.8;">
+        <li><strong>Vivre en Allemagne :</strong> Profitez de l'opportunité de vivre dans un pays européen avec une riche culture et histoire.</li>
+        <li><strong>Amélioration de la langue :</strong> Apprenez l'allemand grâce à l'immersion quotidienne et des cours de langue offerts par la famille d'accueil.</li>
+        <li><strong>Expérience professionnelle :</strong> Développez des compétences utiles dans le domaine de la garde d'enfants et du travail domestique.</li>
+        <li><strong>Découverte culturelle :</strong> Vous aurez l'occasion de découvrir le mode de vie allemand, de voyager et de rencontrer d'autres jeunes au pair.</li>
+    </ul>
+
+    <h3 style="color: #005a8c;">Comment postuler au programme Au Pair en Allemagne ?</h3>
+    <ol style="color: #333; font-size: 1.1rem; line-height: 1.8;">
+        <li><strong>Recherchez une famille d'accueil :</strong> Il existe plusieurs plateformes en ligne où vous pouvez trouver des familles allemandes intéressées à accueillir un Au Pair.</li>
+        <li><strong>Postulez auprès des agences :</strong> Vous pouvez également vous inscrire auprès d'agences spécialisées dans le programme Au Pair, qui faciliteront la mise en relation avec des familles d'accueil.</li>
+        <li><strong>Préparez votre dossier :</strong> Vous devrez fournir un CV, une lettre de motivation, des références (si possible), et parfois des preuves de votre expérience avec les enfants.</li>
+        <li><strong>Obtenez un visa (si nécessaire) :</strong> Si vous n'êtes pas citoyen de l'UE, vous devrez peut-être obtenir un visa pour séjourner en Allemagne en tant qu'Au Pair. Renseignez-vous auprès de l'ambassade allemande de votre pays pour savoir si un visa est nécessaire.</li>
+    </ol>
+
+    <h3 style="color: #005a8c;">Les frais liés au programme Au Pair</h3>
+    <p style="color: #333; font-size: 1.1rem; line-height: 1.8;">Les frais varient selon l'agence et la famille d'accueil, mais en général, l'Au Pair ne doit pas payer de frais importants. Voici quelques dépenses auxquelles vous devrez peut-être faire face :</p>
+    <ul style="color: #333; font-size: 1.1rem; line-height: 1.8;">
+        <li><strong>Frais de visa :</strong> Si vous êtes citoyen d'un pays hors UE, vous devrez probablement payer des frais pour obtenir un visa.</li>
+        <li><strong>Frais d'agence :</strong> Certaines agences demandent des frais d'inscription pour vous aider à trouver une famille d'accueil.</li>
+        <li><strong>Assurance santé :</strong> Vous devrez souscrire à une assurance santé pendant votre séjour en Allemagne.</li>
+    </ul>
+</section>
+ <!-- SECTION CONTACT MULTICANAUX -->
+ <section id="contactez-nous" class="contact-section">
+    <h2>Contactez-nous facilement si vous souhaitez solliciter nos services.</h2>
+    <p>Nous sommes disponibles sur vos plateformes préférées. N'hésitez pas à nous écrire !</p>
+
+    <div class="contact-icons">
+      <a href="https://wa.me/message/XTQKCCN4ZCN7L1" target="_blank" class="contact-icon whatsapp">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+        <span>WhatsApp</span>
+      </a>
+
+      <a href="https://t.me/@dpytha91" target="_blank" class="contact-icon telegram">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
+        <span>Telegram</span>
+      </a>
+
+      <a href="https://studio.youtube.com/channel/UCPGgTUcxlO8GYuobxTvwM5A/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D" target="_blank" class="contact-icon youtube">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+        <span>YouTube</span>
+      </a>
+
+      <a href="mailto:pythacademy@gmail.com" class="contact-icon gmail">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail">
+        <span>Gmail</span>
+      </a>
+    </div>
+  </section>
+  <section class="drive-videos-section">
+    <h2>🎥 Découvrez quelques témoignages vidéo </h2>
+    <p>Accédez aux témoignages d'étudiants que nous avons accompagnés dans leur projet d'études à l'étranger.</p>
+  
+    <div class="drive-video-list">
+  
+      <div class="drive-video-card">
+        <img src="img1.jpeg" alt="Vidéo 1">
+        <h4>Étudier en Russie - Témoignage</h4>
+        <a href="https://drive.google.com/file/d/1UrFrvYJS0yEnl0WRJ8oImEDE4aelImeC/view?usp=sharing" target="_blank" class="watch-button">Voir la vidéo</a>
+      </div>
+  
+      <div class="drive-video-card">
+        <img src="img2.jpeg" alt="Vidéo 2">
+        <h4>Parcours Au Pair en Allemagne</h4>
+        <a href="https://drive.google.com/file/d/1Z_CbpiU8pL0qqXkmRlUH2Q7vGr-Ve01d/view?usp=sharing" target="_blank" class="watch-button">Voir la vidéo</a>
+      </div>
+  
+      <div class="drive-video-card">
+        <img src="img3.jpeg" alt="Vidéo 3">
+        <h4>Reception du Visa pour le Canada</h4>
+        <a href="https://drive.google.com/file/d/1whNeu3gRSj3Ii6-Bx73UYRmRoFCfJ9x8/view?usp=sharing" target="_blank" class="watch-button">Voir la vidéo</a>
+      </div>
+
+      <div class="drive-video-card">
+        <img src="img4.jpeg" alt="Vidéo 1">
+        <h4>Étudier en France  - Campus France</h4>
+        <a href="https://drive.google.com/file/d/1DLB-4JAa5gRhGYVZqxDRXx4xJQ8HYKYn/view?usp=sharing" target="_blank" class="watch-button">Voir la vidéo</a>
+      </div>
+  
+      <div class="drive-video-card">
+        <img src="img5.jpeg" alt="Vidéo 2">
+        <h4>Parcours Bourse de Chine  </h4>
+        <a href="https://drive.google.com/file/d/1-eyJHKZJlAf2vy2pS4UcT9fux5u3leTR/view?usp=sharing" target="_blank" class="watch-button">Voir la vidéo</a>
+      </div>
+  
+      <div class="drive-video-card">
+        <img src="img6.jpeg" alt="Vidéo 3">
+        <h4>Parcours visa succes Canada</h4>
+        <a href="https://drive.google.com/file/d/1wj0fy3GtZwrfM7FLJgukUlP1kHZOHtrX/view?usp=sharing" target="_blank" class="watch-button">Voir la vidéo</a>
+      </div>
+   
+
+      <div class="drive-video-card">
+        <img src="img7.jpeg" alt="Vidéo 2">
+        <h4>Parcours visa succes Canada</h4>
+        <a href="https://drive.google.com/file/d/1QfwJKT7Af0FR44BMI20VdR2ysLHtXOTz/view?usp=sharing" target="_blank" class="watch-button">Voir la vidéo</a>
+      </div>
+  
+      <div class="drive-video-card">
+        <img src="img8.jpeg" alt="Vidéo 3">
+        <h4>Étudier au canada - Témoignage</h4>
+        <a href="https://drive.google.com/file/d/1hCuR5vMKGvdFEhLp7fLjIRd-YiSCFkrs/view?usp=sharing" target="_blank" class="watch-button">Voir la vidéo</a>
+      </div>
+  
+    </div>
+  </section>
+  
+  
+</body>
+</html>
